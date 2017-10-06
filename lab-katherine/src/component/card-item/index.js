@@ -37,7 +37,7 @@ class CardItem extends React.Component {
 }
 
 let mapStateToProps = () => ({});
-let mapDispatchToProps = (dispatch) => {
+let mapDispatchToProps = (dispatch, getState) => {
   return {
     cardUpdate: card => dispatch(cardUpdate(card)),
     cardDelete: card => dispatch(cardDelete(card)),
