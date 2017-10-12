@@ -1,0 +1,19 @@
+button[type="submit"] {
+  background: $btn-primary;
+
+  &:hover {
+    background: #888;
+  }
+}
+
+.category-form {
+  input[type="text"] {
+    border: solid .3vw $black;
+  }
+
+  input[type="number"] {
+    border: solid .3vw $black;
+  }
+
+  margin-bottom: 2vh;
+}
